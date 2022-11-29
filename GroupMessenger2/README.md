@@ -10,7 +10,7 @@ Before beginning the task, let us briefly understand some distributed system con
 
 Total ordering implies that each process in the system delivers all messages in the same order. Here we don't care about any causal relationship of messages as long as every process follows a single order.
 
-Let m0, m1, m2.....m8 represent messages sent by 3 members of the group chat (P1, P2, P3) in a specific order.
+<!-- Let m0, m1, m2.....m8 represent messages sent by 3 members of the group chat (P1, P2, P3) in a specific order.
 For example: -
 
     – P1: m0, m1, m2
@@ -23,12 +23,12 @@ One of the TOTAL ordering would be: -
     – P3: m8, m1, m2, m4, m3, m5, m6, m0, m7
 
 This implies each member (process) shall see the same ordering of messages in the group. This is intuitively easy to understand, or imagine the chaos in a group chat where everyone interprets information in a different manner with respect to the order that they receive messages in.
-
+ -->
 ### FIFO Ordering
 
 FIFO Ordering implies that the message delivery order at each process should preserve the message sending order from every process. But each process can deliver the message in a different order.
 
-Following the notation from earlier we can explain as follows:
+<!-- Following the notation from earlier we can explain as follows:
 
 For example: -
 
@@ -41,13 +41,13 @@ One of the FIFO ordering would be: -
     – P2: m3, m0, m1, m4, m6, m7, m5, m2, m8
     – P3: m6, m7, m8, m0, m1, m2, m3, m4, m5
     
-Note that, as per FIFO Ordering for each process, m0 is received before m1, which is received before m2. Similarly for messages from other processes.
+Note that, as per FIFO Ordering for each process, m0 is received before m1, which is received before m2. Similarly for messages from other processes. -->
 
 ### TOTAL + FIFO Ordering
 
 With an understanding of both the concepts individually, it is now easy to understand them together. Total and FIFO ordering implies that the message delivery order at each process should preserve the message sending order from every process and every process delivers all messages in the same order.
 
-For example: -
+<!-- For example: -
 
 For message sending order as below:
 
@@ -61,7 +61,7 @@ Message delivery order:
 
     – P1: m0, m3, m6, m1, m2, m4, m7, m5, m8
     – P2: m0, m3, m6, m1, m2, m4, m7, m5, m8
-    – P3: m0, m3, m6, m1, m2, m4, m7, m5, m8
+    – P3: m0, m3, m6, m1, m2, m4, m7, m5, m8 -->
 
 This is the absolute requirement for a non-chaotic group chat like Whatsapp or Facebook.
 
