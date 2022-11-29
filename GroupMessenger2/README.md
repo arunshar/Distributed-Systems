@@ -80,14 +80,14 @@ Let us understand how ISIS algorithm works for guaranteeing Total + FIFO Orderin
   
 Image shown below will help understand the process better:
 
-![Image](https://github.com/darshanbagul/Group_Messenger_TOTAL_FIFO_Ordering/blob/master/images/ISIS_Algorithm_Working.gif)
+![Image](https://github.com/arunshar/Distributed-Systems/blob/master/GroupMessenger2/images/ISIS_Algorithm_Working.gif)
 
 **ISIS algorithm** developed at Cornell (Birman, 1993; Birman and Joseph, 1987a, 1987b; and Birman and Van Renesse, 1994) **provides Total ordered multicast delivery.** 
 
 But we design and implement a **modified version of ISIS algorithm that guarantees both TOTAL and FIFO ordering** and provides a persistent Key-Value storage with ordering remaining intact even in case of application failures.
 
 ## Implementation
-We implemented a decentralized algorithm which performs leader election(choosing the central node) locally. The messenger must be robust to handle app failures correctly as well.
+We implemented a decentralized algorithm which performs leader election(choosing the central node) locally. The messenger must be robust to handle app failures correctly as well.kl
 The guidelines and rules for implementing the group messenger are available [here](https://docs.google.com/document/d/1xgXwZ6GYA152WT3K0B1MPP7F0mf0sPCPzfqr528pO5Y)
 
 ## Testing

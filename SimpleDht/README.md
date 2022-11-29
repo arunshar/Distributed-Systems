@@ -15,11 +15,11 @@ If there are multiple instances of the app, all instances should form a Chord ri
 
 ## CHORD Distributed Hash Table
 
-![Image](https://github.com/darshanbagul/CHORD_DHT/blob/master/images/DHT_Chord_Lookup.jpg)
+![Image](https://github.com/arunshar/Distributed-Systems/blob/master/SimpleDht/images/DHT_Chord_Lookup.jpg)
 
 ## Testing
 
-We have been provided a [Grader](https://github.com/darshanbagul/CHORD_DHT/tree/master/Grader) script, that tests our implementation rigorously by spawning multiple threads or multiple Android emulators.
+We have been provided a [Grader](https://github.com/arunshar/Distributed-Systems/tree/master/SimpleDht/Grader) script, that tests our implementation rigorously by spawning multiple threads or multiple Android emulators.
 
 ### Running the Grader Script
 
