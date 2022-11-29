@@ -76,9 +76,9 @@ Let us understand how ISIS algorithm works for guaranteeing Total + FIFO Orderin
   
   4. On receiving this information, recipients mark the message as deliverable, reorder the priority queue, and deliver the set of lowest priority messages that are marked as deliverable.
   
-Image shown below will help understand the process better:
+<!-- Image shown below will help understand the process better:
 
-![Image](https://github.com/arunshar/Distributed-Systems/blob/master/GroupMessenger2/images/ISIS_Algorithm_Working.gif)
+![Image](https://github.com/arunshar/Distributed-Systems/blob/master/GroupMessenger2/images/ISIS_Algorithm_Working.gif) -->
 
 **ISIS algorithm** developed at Cornell (Birman, 1993; Birman and Joseph, 1987a, 1987b; and Birman and Van Renesse, 1994) **provides Total ordered multicast delivery.** 
 
