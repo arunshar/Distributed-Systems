@@ -74,6 +74,10 @@ Another replication strategy is chain replication, which provides linearizabilit
   7. **Note:** If you run an individual phase with "-p", it will always be a fresh install. However if you run all phases (without "-p"), it will not always be a fresh install; the grader will do a fresh-install before phase 1, and do another fresh-install before phase 2. Afterwards, there will be no install. This means that all data from previous phases will remain intact.
   8. The grader uses multiple threads to test your code and each thread will independently print out its own log messages. This means that an error message might appear in the middle of the combined log messages from all threads, rather than at the end.
 
+  ## Code
+
+For main implementation, please refer to java files [here](https://github.com/arunshar/Distributed-Systems/tree/master/SimpleDynamo/app/src/main/java/edu/buffalo/cse/cse486586/simpledynamo).
+
 ## Credits
 
 This project comprises of scripts developed by Networked Systems Research Group at The State University of New York. I thank Prof. Steve Ko for teaching the course and encouraging practical implementations of important concepts in Large Scale Distributed Systems.
