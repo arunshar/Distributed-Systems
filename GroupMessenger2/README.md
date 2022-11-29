@@ -1,6 +1,4 @@
-# Group Messenger with TOTAL and FIFO ordering using modified ISIS algorithm
-
-This project contains a submission for an assignment; requirement for the course CSE 586: Distributed Systems offered in Spring 2017 at State University of New York.
+# Group Messenger with TOTAL and FIFO ordering gaurantees.
 
 ## Introduction
 
@@ -127,7 +125,13 @@ We have been provided a [Grader](https://github.com/arunshar/Distributed-Systems
   
   7. Run the grader script with ‘-h’ argument for viewing help topics.
 
+## Code
+
+For main implementation, please refer to java files [here](https://github.com/arunshar/Distributed-Systems/tree/master/GroupMessenger2/app/src/main/java/edu/buffalo/cse/cse486586/groupmessenger2).
+
 ## Credits
+
+This project contains a submission for an assignment; requirement for the course CSE 586: Distributed Systems offered in Spring 2017 at State University of New York.
 
 This project comprises of scripts developed by Networked Systems Research Group at The State University of New York. I thank Prof. Steve Ko for teaching the course and encouraging practical implementations of important concepts in Large Scale Distributed Systems.
 
