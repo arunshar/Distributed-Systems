@@ -1,4 +1,4 @@
-# Group Messenger with TOTAL and FIFO ordering gaurantees.
+# Group Messenger with TOTAL and FIFO ordering guarantees.
 
 ## Introduction
 
